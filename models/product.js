@@ -24,7 +24,7 @@ const productSchema = new mongoose.Schema({
   company: {
     type: String,
     enum:{
-        values:['ikea','liddy','caressa','marocos'],
+        values:['ikea','liddy','caressa','marcos'],
         // enum is like doing CHOICES in django
         message: '{VALUE} is not supported'
     }
